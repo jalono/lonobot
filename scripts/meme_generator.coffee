@@ -1,15 +1,15 @@
 # Description:
 #   Integrates with memegenerator.net
 #
-# Dependencies:
-#   None
-#
-# Configuration:
-#   HUBOT_MEMEGEN_USERNAME
-#   HUBOT_MEMEGEN_PASSWORD
-#   HUBOT_MEMEGEN_DIMENSIONS
-#
-# Commands:
+ Dependencies:
+   None
+
+ Configuration:
+   HUBOT_MEMEGEN_USERNAME
+   HUBOT_MEMEGEN_PASSWORD
+   HUBOT_MEMEGEN_DIMENSIONS
+
+ Commands:
    hubot memegen Y U NO <text>  - Generates the Y U NO GUY with the bottom caption of <text>
    hubot memegen I don't always <something> but when i do <text> - Generates The Most Interesting man in the World
 #   hubot memegen <text> ORLY? - Generates the ORLY? owl with the top caption of <text>
