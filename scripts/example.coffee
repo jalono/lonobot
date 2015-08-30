@@ -52,9 +52,9 @@ module.exports = (robot) ->
   #   setTimeout () ->
   #     res.send "Who you calling 'slow'?"
   #   , 60 * 1000
-  #
-  # annoyIntervalId = null
-  #
+  
+   annoyIntervalId = null
+  
    robot.respond /annoy me/, (res) ->
      if annoyIntervalId
        res.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
